@@ -12,8 +12,8 @@ the project are,
 
      $ pwd
      $ /home/jfasch/src       # <--- your mileage will vary
-     $ git clone https://github.com/jfasch/2023-03-07.git
-     $ cd 2023-03-07/
+     $ git clone https://github.com/jfasch/2023-03-20.git
+     $ cd 2023-03-20/
      $ git submodule init
      $ git submodule update
 
@@ -21,23 +21,23 @@ the project are,
 
   .. code-block:: console
 
-     $ mkdir ~/tmp/2023-03-07-x86_64
-     $ cd ~/tmp/2023-03-07-x86_64
+     $ mkdir ~/tmp/2023-03-20-x86_64
+     $ cd ~/tmp/2023-03-20-x86_64
 
 * Use CMake to create makefiles
 
   .. code-block:: console
 
      $ pwd
-     ~/tmp/2023-03-07-x86_64
-     $ cmake /home/jfasch/src/tmp/2023-03-07
+     ~/tmp/2023-03-20-x86_64
+     $ cmake /home/jfasch/src/tmp/2023-03-20
 
 * Build
 
   .. code-block:: console
 
      $ pwd
-     ~/tmp/2023-03-07-x86_64
+     ~/tmp/2023-03-20-x86_64
      $ make
 
 * Test
@@ -45,7 +45,7 @@ the project are,
   .. code-block:: console
 
      $ ./tests/cxx-exercises-utilities--suite 
-     Running main() from /home/jfasch/tmp/2023-03-07/googletest/googletest/src/gtest_main.cc
+     Running main() from /home/jfasch/tmp/2023-03-20/googletest/googletest/src/gtest_main.cc
      [==========] Running 1 test from 1 test suite.
      [----------] Global test environment set-up.
      [----------] 1 test from server_thread_suite
