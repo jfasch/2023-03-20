@@ -13,3 +13,5 @@ endif()
 ADD_SUBDIRECTORY(googletest)
 ADD_SUBDIRECTORY(utilities)
 ADD_SUBDIRECTORY(tests)
+
+ADD_SUBDIRECTORY(livehacking)

@@ -6,12 +6,19 @@ The project uses `CMake <https://cmake.org/>`__ and `googletest
 Linux(-like). If you have such an environment, then the steps to build
 the project are,
 
+* Create a directory for the training, and change into it
+
+  .. code-block:: console
+
+     $ mkdir ~/C++-Training-2023-03-20
+     $ cd  ~/C++-Training-2023-03-20
+
 * Clone and massage the project source
 
   .. code-block:: console
 
      $ pwd
-     $ /home/jfasch/src       # <--- your mileage will vary
+     /home/jfasch/C++-Training-2023-03-20
      $ git clone https://github.com/jfasch/2023-03-20.git
      $ cd 2023-03-20/
      $ git submodule init
@@ -21,31 +28,36 @@ the project are,
 
   .. code-block:: console
 
-     $ mkdir ~/tmp/2023-03-20-x86_64
-     $ cd ~/tmp/2023-03-20-x86_64
+     $ cd ..
+     $ pwd
+     /home/jfasch/C++-Training-2023-03-20
+     $ mkdir 2023-03-20-x86_64
+     $ cd 2023-03-20-x86_64
 
 * Use CMake to create makefiles
 
   .. code-block:: console
 
      $ pwd
-     ~/tmp/2023-03-20-x86_64
-     $ cmake /home/jfasch/src/tmp/2023-03-20
+     /home/jfasch/C++-Training-2023-03-20
+     $ cmake ../2023-03-20
 
 * Build
 
   .. code-block:: console
 
      $ pwd
-     ~/tmp/2023-03-20-x86_64
+     /home/jfasch/C++-Training-2023-03-20
      $ make
 
 * Test
 
   .. code-block:: console
 
+     $ pwd
+     /home/jfasch/C++-Training-2023-03-20
      $ ./tests/cxx-exercises-utilities--suite 
-     Running main() from /home/jfasch/tmp/2023-03-20/googletest/googletest/src/gtest_main.cc
+     Running main() from /home/jfasch/C++-Training-2023-03-20/2023-03-20/googletest/googletest/src/gtest_main.cc
      [==========] Running 1 test from 1 test suite.
      [----------] Global test environment set-up.
      [----------] 1 test from server_thread_suite
