@@ -1,1 +1,1 @@
-# ADD_EXECUTABLE(hello hello.cpp)
+ADD_SUBDIRECTORY(intro-point)

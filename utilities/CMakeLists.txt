@@ -1,5 +1,5 @@
 ADD_LIBRARY(
-  cxx-exercises-utilities
+  utilities
 
   queue.h
   server-thread.cpp
@@ -7,7 +7,7 @@ ADD_LIBRARY(
 )
 
 TARGET_INCLUDE_DIRECTORIES(
-  cxx-exercises-utilities
+  utilities
 
   PUBLIC
   .

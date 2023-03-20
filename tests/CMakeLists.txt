@@ -1,13 +1,13 @@
 ADD_EXECUTABLE(
-  cxx-exercises-utilities--suite
+  utilities-suite
 
   server-thread-suite.cpp
 )
 
 TARGET_LINK_LIBRARIES(
-  cxx-exercises-utilities--suite
+  utilities-suite
 
   gtest_main 
-  cxx-exercises-utilities
+  utilities
   Threads::Threads
 )
