@@ -39,7 +39,7 @@ the project are,
   .. code-block:: console
 
      $ pwd
-     /home/jfasch/C++-Training-2023-03-20
+     /home/jfasch/C++-Training-2023-03-20/2023-03-20-x86_64
      $ cmake ../2023-03-20
 
 * Build
@@ -47,7 +47,7 @@ the project are,
   .. code-block:: console
 
      $ pwd
-     /home/jfasch/C++-Training-2023-03-20
+     /home/jfasch/C++-Training-2023-03-20/2023-03-20-x86_64
      $ make
 
 * Test
@@ -55,7 +55,7 @@ the project are,
   .. code-block:: console
 
      $ pwd
-     /home/jfasch/C++-Training-2023-03-20
+     /home/jfasch/C++-Training-2023-03-20/2023-03-20-x86_64
      $ ./tests/cxx-exercises-utilities--suite 
      Running main() from /home/jfasch/C++-Training-2023-03-20/2023-03-20/googletest/googletest/src/gtest_main.cc
      [==========] Running 1 test from 1 test suite.
