@@ -11,7 +11,6 @@ if (${CMAKE_COMPILER_IS_GNUCC})
 endif()
 
 ADD_SUBDIRECTORY(googletest)
-ADD_SUBDIRECTORY(utilities)
-ADD_SUBDIRECTORY(tests)
 
 ADD_SUBDIRECTORY(livehacking)
+ADD_SUBDIRECTORY(exercises)
