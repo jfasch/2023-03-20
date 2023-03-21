@@ -24,6 +24,11 @@ ADD_EXECUTABLE(
   square_suite-ctor_and_getters_using_operator_equals.cpp
   square_suite-area.cpp
   square_suite-area_const.cpp
+
+  # shape_suite-circle_is_a_shape.cpp
+  # shape_suite-square_is_a_shape.cpp
+  # shape_suite-area_is_shape_functionality__circle.cpp
+  # shape_suite-area_is_shape_functionality__square.cpp
 )
 
 TARGET_LINK_LIBRARIES(
