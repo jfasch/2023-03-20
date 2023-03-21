@@ -1,8 +1,9 @@
 #pragma once
 
 #include "point.h"
+#include "shape.h"
 
-class Circle
+class Circle : public Shape
 {
 public:
     Circle(const Point& center, int radius) : _center(center), _radius(radius) {}
