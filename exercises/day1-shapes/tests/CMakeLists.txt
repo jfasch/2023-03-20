@@ -18,12 +18,12 @@ ADD_EXECUTABLE(
   circle_suite-ctor_and_getters.cpp
   circle_suite-ctor_and_getters_using_operator_equals.cpp
   circle_suite-area.cpp
-  # circle_suite-area_const.cpp
+  circle_suite-area_const.cpp
 
-  # square_suite-ctor_and_getters.cpp
-  # square_suite-ctor_and_getters_using_operator_equals.cpp
-  # square_suite-area.cpp
-  # square_suite-area_const.cpp
+  square_suite-ctor_and_getters.cpp
+  square_suite-ctor_and_getters_using_operator_equals.cpp
+  square_suite-area.cpp
+  square_suite-area_const.cpp
 )
 
 TARGET_LINK_LIBRARIES(
