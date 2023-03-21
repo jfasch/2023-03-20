@@ -15,6 +15,8 @@ public:
     bool operator==(const point& rhs) const;
     bool operator!=(const point& rhs) const;
 
+    point& operator+=(const point& vec);
+
 private:
     int _x, _y;
 };

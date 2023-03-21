@@ -5,4 +5,11 @@ ADD_EXECUTABLE(
   point.h
   point.cpp)
 
+ADD_EXECUTABLE(
+  inplace-inc 
+
+  inplace-inc.cpp
+  point.h
+  point.cpp)
+
 

@@ -19,6 +19,13 @@ bool point::operator!=(const point& rhs) const
     return ! operator==(rhs);
 }
 
+point& point::operator+=(const point& vec)
+{
+    _x += vec.x();
+    _y += vec.y();
+    return *this;
+}
+
 std::ostream& operator<<(std::ostream& s, const point& p)
 {
     s << '(' << p.x() << ',' << p.y() << ')';

@@ -15,9 +15,9 @@ ADD_EXECUTABLE(
   point_suite-operator_plus.cpp
   point_suite-operator_plus_const.cpp
   
-  # circle_suite-ctor_and_getters.cpp
-  # circle_suite-ctor_and_getters_using_operator_equals.cpp
-  # circle_suite-area.cpp
+  circle_suite-ctor_and_getters.cpp
+  circle_suite-ctor_and_getters_using_operator_equals.cpp
+  circle_suite-area.cpp
   # circle_suite-area_const.cpp
 
   # square_suite-ctor_and_getters.cpp
