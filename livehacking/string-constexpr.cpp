@@ -1,3 +1,5 @@
+#if __GNUC__ >= 10
+
 #include <iostream>
 #include <string>
 #include <string_view>
@@ -15,3 +17,16 @@ int main()
     cout << v.substr(4, 9) << endl;
     return 0;
 }
+
+#else
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cerr << "no!" << endl;
+    return 0;
+}
+
+#endif
